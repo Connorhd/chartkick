@@ -857,7 +857,7 @@
   }
 
   function processGeoData(chart) {
-    chart.data = processSimple(chart.data);
+    // chart.data = processSimple(chart.data);
     renderChart("GeoChart", chart);
   }
 
